@@ -27,22 +27,22 @@ body .logo .circle {
   border-radius: 50%;
   background-color: #002352;
   position: relative;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
 }
 body .logo .circle img {
   position: absolute;
-  width: 17em;
-  transform: translate(5%, -5%);
+  width: 19em;
+  transform: translate(5%, -10%);
 }
 body .logo .circle .title {
   position: absolute;
   color: #FFB822;
-  transform: translate(-15%, 270%);
+  transform: translate(-15%, 250%);
 }
 body .logo .circle .title h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 2.2em;
+  font-size: 2.7em;
 }
 body .logo .circle .title h6 {
   font-family: "Poppins", sans-serif;
@@ -57,6 +57,8 @@ body .info {
 }
 body .socials {
   margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
 }
 body .action a button {
   width: 250px;
